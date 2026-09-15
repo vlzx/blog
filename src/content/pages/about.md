@@ -3,9 +3,11 @@ title: About
 description: About this blog.
 ---
 
-Hi, I'm vlzx. Welcome to my personal blog.
+Hi, I'm vlzx.
 
-This is where I share technical projects, things I learn, and thoughts on life. I hope you find something useful or inspiring here.
+Hiker, developer & tech nerd.
+
+This is where I share discoveries, learning notes, and what’s on my mind. I hope you find something useful or interesting here.
 
 Find me on [GitHub](https://github.com/vlzx), or subscribe to the [RSS feed](/rss.xml) for updates.
 

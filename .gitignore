@@ -35,3 +35,4 @@ compose.override.yaml
 .wrangler/
 .env.*
 !.env.example
+output/

@@ -24,6 +24,10 @@
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 @layer base {
+  p {
+    font-size: 17px;
+  }
+
   * {
     @apply border-border outline-accent/75;
     scrollbar-width: auto;
