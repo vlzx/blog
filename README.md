@@ -10,7 +10,7 @@
 - Markdown / MDX 写作、精选文章、标签与归档。
 - Pagefind 静态全文搜索。
 - RSS、站点地图和 canonical 链接。
-- 中文字体回退：苹方 → 思源黑体 → 微软雅黑。
+- 正文和界面的中英文、数字使用本地 LXGW WenKai（霞鹜文楷），代码使用本地 Google Sans Code。
 
 ## 技术栈
 
@@ -131,13 +131,13 @@ featured: false
 
 ### 中文字体
 
-正文保留英文等宽字体设置，中文字体依次尝试：
+正文和界面的中英文、数字使用本地 LXGW WenKai（霞鹜文楷）；行内代码、代码块、键盘输入和程序输出使用本地 Google Sans Code，其中的中文回退到 LXGW WenKai。正文的字体依次尝试：
 
 ```css
-"PingFang SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei"
+"LXGW WenKai", "PingFang SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei"
 ```
 
-其中两个 `Source Han Sans` 名称对应思源黑体的不同字体名称。字体来自访问者设备，不会自动下载；未安装的字体会被跳过。本项目无需在构建时下载 Google Fonts。
+LXGW WenKai v1.522 的 Regular 字体及 SIL OFL 1.1 许可证保存在 `src/assets/fonts/lxgw-wenkai/`，通过 `src/styles/global.css` 加载，随站点构建与部署，无需外部字体服务或构建时下载。粗体和斜体由浏览器合成。其余回退字体来自访问者设备，未安装的字体会被跳过。
 
 ### 站点地址
 

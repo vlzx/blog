@@ -2,9 +2,10 @@
 title: Hello, World
 pubDatetime: 2026-09-15T00:00:00Z
 description: The first post on this blog, and the beginning of writing and sharing.
-featured: true
+featured: false
+draft: false
 tags:
-  - reflections
+  - thoughts
 ---
 
 Welcome to my blog.

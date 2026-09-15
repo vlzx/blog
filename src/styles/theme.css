@@ -9,13 +9,16 @@
   --color-border: var(--border);
   --font-app: var(--app-font-family);
   --font-sans: var(--app-font-family);
-  --font-mono: var(--app-font-family);
+  --font-mono: var(--code-font-family);
 }
 
 :root {
   --app-font-family:
-    "Google Sans Code", ui-monospace, SFMono-Regular, "Cascadia Code",
-    "PingFang SC", "Source Han Sans SC", "Source Han Sans CN",
+    "LXGW WenKai", "PingFang SC", "Source Han Sans SC", "Source Han Sans CN",
+    "Microsoft YaHei", sans-serif;
+  --code-font-family:
+    "Google Sans Code", "LXGW WenKai", ui-monospace, SFMono-Regular,
+    "Cascadia Code", "PingFang SC", "Source Han Sans SC", "Source Han Sans CN",
     "Microsoft YaHei", monospace;
 }
 

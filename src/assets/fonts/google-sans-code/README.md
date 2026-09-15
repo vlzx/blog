@@ -9,6 +9,7 @@ axis suffix for simpler asset paths. Weight range: 300–800.
 
 `src/styles/global.css` references these files directly. Vite emits hashed font
 assets during the build; serving the site requires no external font service or
-build-time font download. Chinese characters use the system fallback fonts.
+build-time font download. This font is used for code only. Chinese characters in
+code use the locally bundled LXGW WenKai, followed by system fallback fonts.
 
 License: SIL Open Font License 1.1, included in `OFL.txt`.
