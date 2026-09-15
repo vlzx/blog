@@ -3,6 +3,24 @@
 @import "./typography.css";
 @import "rehype-callouts/theme/obsidian";
 
+@font-face {
+  font-family: "Google Sans Code";
+  src: url("../assets/fonts/google-sans-code/GoogleSansCode.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Google Sans Code";
+  src: url("../assets/fonts/google-sans-code/GoogleSansCode-Italic.ttf")
+    format("truetype");
+  font-style: italic;
+  font-weight: 300 800;
+  font-display: swap;
+}
+
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 @layer base {
