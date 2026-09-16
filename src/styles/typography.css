@@ -111,6 +111,21 @@
     }
   }
 
+  article.app-prose p,
+  article.app-prose li {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+
+    strong {
+      font-size: inherit;
+      letter-spacing: inherit;
+    }
+  }
+
+  article.app-prose code {
+    font-size: 16px;
+  }
+
   /* ===== Code Blocks & Syntax Highlighting ===== */
   .astro-code {
     @apply outline-border flex border bg-(--shiki-light-bg) text-(--shiki-light) [&_span]:text-(--shiki-light);
